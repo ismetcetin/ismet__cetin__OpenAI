@@ -1,0 +1,54 @@
+@use '../../styles/partials/mixins' as *;
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  &__header {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+  }
+
+  &__tips {
+    border: 1px dotted;
+    padding: .5rem;
+    width: 90%;
+    margin: 1rem 1rem 2rem 1rem;
+    font-size: .75rem; 
+    @include tablet{
+        font-size: 1rem;
+        width: 50%;
+    }
+    @include desktop{
+        width: 30%;
+    }
+
+    &__text{
+        margin-left: 1rem;
+    }
+  }
+}
+
+.response { 
+  &__header {
+    margin-top: 2rem;
+  }
+  &__list {
+    list-style: none;
+  }
+  &__card {
+    margin: 1rem 0;
+  }
+}
+
+.error{
+  color: red;
+  line-height: 2rem;
+  background-color: rgb(228, 203, 203);
+  padding: 0 1rem;
+  margin-top: .5rem;
+}

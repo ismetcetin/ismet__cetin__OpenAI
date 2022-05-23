@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    background-color:white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap:.5rem;
+    &__img{
+        width: 2rem;
+        height: 2rem;
+        background-color: white;
+    }
+    &__slogan{
+        background-color: white;
+    }
+}
