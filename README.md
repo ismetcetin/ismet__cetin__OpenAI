@@ -16,7 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 After cloning the API repo you will need to issue `npm install` followed by `npm start` to run the API. 
 
-To obtain your free API key, please sign up [OpenAI](https://openai.com/api/)
+To obtain your free API key, please sign up [OpenAI](https://openai.com/api/) (Credit Card information is not required!).
 After obtaining your key, add it in .env file `REACT_APP_KEY=your.api.key`
 
 ## Running the project
