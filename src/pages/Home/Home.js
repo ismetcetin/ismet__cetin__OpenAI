@@ -73,7 +73,7 @@ handleDelete = (index) => {
         <div className="home__tips">
             <h4 className="home__tips__header">Here are some tips;</h4>
             <p className="home__tips__text">? Write a tagline for an ice cream shop. 🍦</p>
-            <p className="home__tips__text">? Write a poem about smiling dinasours. 🦖 </p>
+            <p className="home__tips__text">? Write a poem about smiling dinosaurs. 🦖 </p>
             <p className="home__tips__text">? Write a restaurant review based on rude waiters and food poisoning. 🍽️</p>        
         </div>
         {isError && (
