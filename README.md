@@ -1,6 +1,6 @@
 # Fun with AI
 <div align="center">
-<img src="./src/assets/images/opeinai.png" alt="OpenAI Logo" width="50" height="50" align="center"><span><h1>Fun with AI</h1></span>
+<img src="./src/assets/images/openai.png" alt="OpenAI Logo" width="50" height="50" align="center"><span><h1>Fun with AI</h1></span>
 </div>
 
 # Getting Started with Fun with AI
